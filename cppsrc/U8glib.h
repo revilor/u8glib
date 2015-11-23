@@ -996,6 +996,13 @@ class U8GLIB_SSD1306_64X48_2X : public U8GLIB
       { }
 };
 
+class U8GLIB_SSD1306_96X16 : public U8GLIB 
+{
+  public:
+    U8GLIB_SSD1306_96X16(uint8_t options = U8G_I2C_OPT_NONE) 
+      : U8GLIB(&u8g_dev_ssd1306_96x16_i2c, options)
+      { }
+};
 
 class U8GLIB_NHD27OLED_GR : public U8GLIB 
 {
